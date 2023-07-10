@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane layoutX="6.0" prefHeight="520.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+         <left>
+            <VBox prefHeight="464.0" prefWidth="189.0" BorderPane.alignment="CENTER" />
+         </left>
+         <top>
+            <HBox fx:id="mainHeader" prefHeight="56.0" prefWidth="773.0" BorderPane.alignment="CENTER" />
+         </top>
+</BorderPane>
