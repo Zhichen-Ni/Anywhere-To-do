@@ -1,0 +1,725 @@
+[
+  {
+    "name": "kotlin.reflect.jvm.internal.ReflectionFactoryImpl",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "kotlin.KotlinVersion",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "kotlin.KotlinVersion[]"
+  },
+  {
+    "name": "kotlin.KotlinVersion$Companion"
+  },
+  {
+    "name": "kotlin.KotlinVersion$Companion[]"
+  },
+  {
+    "name": "kotlin.internal.jdk8.JDK8PlatformImplementations",
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name":"kotlin.jvm.internal.DefaultConstructorMarker"
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.util.ConcurrentBag"
+    },
+    "name": "[Lcom.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry;"
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.pool.PoolEntry"
+    },
+    "name": "[Ljava.sql.Statement;"
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.util.FastList"
+    },
+    "name": "[Ljava.sql.Statement;"
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.HikariConfig"
+    },
+    "name": "com.zaxxer.hikari.HikariConfig",
+    "allDeclaredFields": true,
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "setAutoCommit",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setConnectionTestQuery",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setDataSourceClassName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setMinimumIdle",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.HikariJNDIFactory"
+    },
+    "name": "com.zaxxer.hikari.HikariConfig",
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "setDataSourceJNDI",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setDriverClassName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setJdbcUrl",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setMaxLifetime",
+        "parameterTypes": [
+          "long"
+        ]
+      },
+      {
+        "name": "setMaximumPoolSize",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setPassword",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setUsername",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.hibernate.HikariConfigurationUtil"
+    },
+    "name": "com.zaxxer.hikari.HikariConfig",
+    "queryAllPublicMethods": true,
+    "methods": [
+      {
+        "name": "setAutoCommit",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setConnectionTestQuery",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setDataSourceClassName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.util.PropertyElf"
+    },
+    "name": "com.zaxxer.hikari.HikariConfig",
+    "methods": [
+      {
+        "name": "getCatalog",
+        "parameterTypes": []
+      },
+      {
+        "name": "getConnectionInitSql",
+        "parameterTypes": []
+      },
+      {
+        "name": "getConnectionTestQuery",
+        "parameterTypes": []
+      },
+      {
+        "name": "getConnectionTimeout",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataSource",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataSourceClassName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataSourceJNDI",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataSourceProperties",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDriverClassName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getHealthCheckProperties",
+        "parameterTypes": []
+      },
+      {
+        "name": "getHealthCheckRegistry",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdleTimeout",
+        "parameterTypes": []
+      },
+      {
+        "name": "getJdbcUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLeakDetectionThreshold",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMaxLifetime",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMaximumPoolSize",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMetricRegistry",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMetricsTrackerFactory",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMinimumIdle",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPassword",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPoolName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getScheduledExecutorService",
+        "parameterTypes": []
+      },
+      {
+        "name": "getThreadFactory",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTransactionIsolation",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValidationTimeout",
+        "parameterTypes": []
+      },
+      {
+        "name": "isAllowPoolSuspension",
+        "parameterTypes": []
+      },
+      {
+        "name": "isAutoCommit",
+        "parameterTypes": []
+      },
+      {
+        "name": "isInitializationFailFast",
+        "parameterTypes": []
+      },
+      {
+        "name": "isIsolateInternalQueries",
+        "parameterTypes": []
+      },
+      {
+        "name": "isJdbc4ConnectionTest",
+        "parameterTypes": []
+      },
+      {
+        "name": "isReadOnly",
+        "parameterTypes": []
+      },
+      {
+        "name": "isRegisterMbeans",
+        "parameterTypes": []
+      }
+    ],
+    "queriedMethods": [
+      {
+        "name": "setAllowPoolSuspension",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setAutoCommit",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setCatalog",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setConnectionInitSql",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setConnectionTestQuery",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setConnectionTimeout",
+        "parameterTypes": [
+          "long"
+        ]
+      },
+      {
+        "name": "setDataSource",
+        "parameterTypes": [
+          "javax.sql.DataSource"
+        ]
+      },
+      {
+        "name": "setDataSourceClassName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setDataSourceJNDI",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setDataSourceProperties",
+        "parameterTypes": [
+          "java.util.Properties"
+        ]
+      },
+      {
+        "name": "setDriverClassName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setHealthCheckProperties",
+        "parameterTypes": [
+          "java.util.Properties"
+        ]
+      },
+      {
+        "name": "setHealthCheckRegistry",
+        "parameterTypes": [
+          "java.lang.Object"
+        ]
+      },
+      {
+        "name": "setIdleTimeout",
+        "parameterTypes": [
+          "long"
+        ]
+      },
+      {
+        "name": "setInitializationFailFast",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setIsolateInternalQueries",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setJdbc4ConnectionTest",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setJdbcUrl",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setLeakDetectionThreshold",
+        "parameterTypes": [
+          "long"
+        ]
+      },
+      {
+        "name": "setMaxLifetime",
+        "parameterTypes": [
+          "long"
+        ]
+      },
+      {
+        "name": "setMaximumPoolSize",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setMetricRegistry",
+        "parameterTypes": [
+          "java.lang.Object"
+        ]
+      },
+      {
+        "name": "setMetricsTrackerFactory",
+        "parameterTypes": [
+          "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+        ]
+      },
+      {
+        "name": "setMinimumIdle",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setPassword",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setPoolName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setReadOnly",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setRegisterMbeans",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setScheduledExecutorService",
+        "parameterTypes": [
+          "java.util.concurrent.ScheduledThreadPoolExecutor"
+        ]
+      },
+      {
+        "name": "setThreadFactory",
+        "parameterTypes": [
+          "java.util.concurrent.ThreadFactory"
+        ]
+      },
+      {
+        "name": "setTransactionIsolation",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setUsername",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setValidationTimeout",
+        "parameterTypes": [
+          "long"
+        ]
+      }
+    ]
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.util.UtilityElf"
+    },
+    "name": "java.sql.Connection",
+    "fields": []
+  },
+  {
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.util.Sequence$Factory"
+    },
+    "name": "java.util.concurrent.atomic.LongAdder"
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.CloudServiceConfig",
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.CloudServiceConfig$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoCategoryModel",
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoCategoryModel$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoItemModel",
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoItemModel$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoCategoryModificationModel",
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoCategoryModificationModel$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoItemModificationModel",
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.TodoItemModificationModel$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.UserModel",
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.UserModel$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.UserCredential",
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"edu.uwaterloo.cs.todo.lib.UserCredential$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name":"java.lang.ClassValue"
+  },
+  {
+    "name":"java.lang.Thread",
+    "methods":[{"name":"isVirtual","parameterTypes":[] }]
+  },
+  {
+    "name":"java.lang.management.ThreadInfo",
+    "fields":[{"name":"virtual"}]
+  },
+  {
+    "name":"java.security.SecureRandomParameters"
+  },
+  {
+    "name":"kotlin.Metadata",
+    "queryAllDeclaredMethods":true,
+    "methods":[
+      {"name":"bv","parameterTypes":[] },
+      {"name":"d1","parameterTypes":[] },
+      {"name":"d2","parameterTypes":[] },
+      {"name":"k","parameterTypes":[] },
+      {"name":"mv","parameterTypes":[] },
+      {"name":"pn","parameterTypes":[] },
+      {"name":"xi","parameterTypes":[] },
+      {"name":"xs","parameterTypes":[] }
+    ]
+  },
+  {
+    "name":"sun.security.provider.DRBG",
+    "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+  },
+  {
+    "name":"sun.security.provider.SHA",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"sun.security.provider.SHA2$SHA256",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"sun.security.provider.SecureRandom",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"io.ktor.utils.io.ClosedWriteChannelException",
+    "allDeclaredFields":true,
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"io.ktor.utils.io.ClosedWriteChannelException",
+    "allDeclaredFields":true,
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+  },
+  {
+    "name":"java.lang.ClassValue"
+  },
+  {
+    "name":"java.lang.Exception",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"java.lang.IllegalStateException",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"java.lang.Object",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"java.lang.RuntimeException",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"java.lang.Thread",
+    "methods":[{"name":"isVirtual","parameterTypes":[] }]
+  },
+  {
+    "name":"java.lang.Throwable",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"java.lang.management.ThreadInfo",
+    "fields":[{"name":"virtual"}]
+  },
+  {
+    "name":"java.net.StandardSocketOptions"
+  },
+  {
+    "name":"java.security.SecureRandomParameters"
+  },
+  {
+    "name":"java.util.List"
+  },
+  {
+    "name":"java.util.concurrent.CancellationException",
+    "allDeclaredFields":true
+  },
+  {
+    "name":"org.jetbrains.exposed.dao.id.EntityID"
+  },
+  {
+    "name": "io.ktor.utils.io.pool.DefaultPool",
+    "fields": [
+      {
+        "name": "top",
+        "allowUnsafeAccess": true
+      }
+    ]
+  },
+  {
+    "name": "io.ktor.network.selector.InterestSuspensionsMap",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "fields": [
+      {
+        "name": "readHandlerReference",
+        "allowUnsafeAccess": true
+      },
+      {
+        "name": "writeHandlerReference",
+        "allowUnsafeAccess": true
+      },
+      {
+        "name": "connectHandlerReference",
+        "allowUnsafeAccess": true
+      },
+      {
+        "name": "acceptHandlerReference",
+        "allowUnsafeAccess": true
+      }
+    ]
+  },
+  {
+    "name":"data.TodoItem",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name":"data.TodoCategory",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true
+  }
+]
